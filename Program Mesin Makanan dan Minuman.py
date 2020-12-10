@@ -201,3 +201,40 @@ def Cadbury():
     else :
         print("Uang Anda Tidak Mencukupi")
         Kembali_ke_awal()
+        
+#MINUMAN DINGIN
+def Aqua_Botol():
+    HargaAB = 4000
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaAB):
+        print("Kembalian Anda       = Rp.",x - HargaAB)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
+
+def Teh_Pucuk():
+    HargaTP = 12500
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaTP):
+        print("Kembalian Anda       = Rp.",x - HargaTP)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
+
+def Pocari_Sweat():
+    HargaPS = 12500
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaPS):
+        print("Kembalian Anda       = Rp.",x - HargaPS)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
