@@ -98,3 +98,70 @@ def Membeli_lagi():
         print("===========================")
         input("Tekan Enter untuk keluar")
         exit
+        
+# Kembali ke awal
+def Kembali_ke_awal():
+    input("Tekan Enter untuk kembali...")
+    print("")
+    menampilkanjenis()
+
+#MAKANAN RINGAN
+def Chitato():
+    HargaC = 15000
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaC):
+        print("Kembalian Anda       = Rp.",x - HargaC)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Cukup")
+        Kembali_ke_awal()
+
+def Maitos():
+    HargaM = 10000
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaM):
+        print("Kembalian Anda       = Rp.",x - HargaM)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
+
+def Qtela():
+    HargaQ = 8000
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaQ):
+        print("Kembalian Anda       = Rp.",x - HargaQ)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
+
+def Taro():
+    HargaT = 7500
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaT):
+        print("Kembalian Anda       = Rp.",x - HargaT)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
+        
+def Jetz():
+    HargaJ = 9000
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaJ):
+        print("Kembalian Anda       = Rp.",x - HargaJ)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
