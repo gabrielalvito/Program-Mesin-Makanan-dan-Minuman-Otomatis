@@ -238,3 +238,46 @@ def Pocari_Sweat():
     else :
         print("Uang Anda Tidak Mencukupi")
         Kembali_ke_awal()
+        
+def Freshtea():
+    HargaF = 5000
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaF):
+        print("Kembalian Anda       = Rp.",x - HargaF)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
+
+def Good_Day():
+    HargaGD = 11000
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaGD):
+        print("Kembalian Anda       = Rp.",x - HargaGD)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
+
+def Nestcafe():
+    HargaN = 12500
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaN):
+        print("Kembalian Anda       = Rp.",x - HargaN)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
+
+menampilkanjenis()
+        
+        
+        
+        
+        
