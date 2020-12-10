@@ -165,3 +165,39 @@ def Jetz():
     else :
         print("Uang Anda Tidak Mencukupi")
         Kembali_ke_awal()
+
+ def Pilus():
+    HargaP = 4000
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaP):
+        print("Kembalian Anda       = Rp.",x - HargaP)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
+
+def SilverQueen():
+    HargaS = 8000
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaS):
+        print("Kembalian Anda       = Rp.",x - HargaS)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
+
+def Cadbury():
+    HargaC = 6500
+    x = int(input("Masukkan Uang Anda   : "))
+    if (x >= HargaC):
+        print("Kembalian Anda       = Rp.",x - HargaC)
+        print("Pembelian Berhasil")
+        print("===========================")
+        Membeli_lagi()
+    else :
+        print("Uang Anda Tidak Mencukupi")
+        Kembali_ke_awal()
