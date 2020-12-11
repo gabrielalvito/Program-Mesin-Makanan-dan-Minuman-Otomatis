@@ -1,3 +1,7 @@
+# KEMBALI KE AWAL
+def Kembali_ke_awal():
+    menampilkanjenis()
+    
 # PROGRAM MESIN MAKANAN DAN MINUMAN
 def menampilkanjenis():
     print("==================================================")
@@ -14,11 +18,17 @@ def menampilkanjenis():
     elif(pilih == "2"):
      minumandingin()
     elif(pilih =="0"):
-      Membeli_lagi()
+     print("Terima Kasih")
+     print("==================================================")
+     exit
+    else :
+        print("Pilihan Salah")
+        Kembali_ke_awal()
 
 #MAKANAN RINGAN
 def makananringan():
-    mr = ["1. Chitato", "2. Maitos", "3. Qtela", "4. Taro", "5. Jetz", "6.Pilus", "7. SilverQueen", "8. Cadbury"]
+    mr = ["1. Chitato", "2. Maitos", "3. Qtela", "4. Taro", "5. Jetz", "6. Pilus", "7. SilverQueen", "8. Cadbury"]
+    print("===========================")
     print("Pilih Makanan")
     print(mr[0])
     print(mr[1])
@@ -32,8 +42,7 @@ def makananringan():
     print("===========================")
     
     pilih = str(input("Masukkan Pilihan     : "))
-      
-
+    print('')  
     if (pilih == "1"):
         Chitato()
     elif (pilih == "2"):
@@ -59,6 +68,7 @@ def makananringan():
 #MINUMAN DINGIN
 def minumandingin():
     md = ["1. Aqua Botol","2. Teh Pucuk","3. Pocari Sweat", "4. Freshtea", "5. Good Day", "6. Nestcafe"]
+    print("===========================")
     print("Pilih Minuman")
     print(md[0])
     print(md[1])
@@ -70,6 +80,7 @@ def minumandingin():
     print("============================")
 
     pilih = str(input("Masukkan Pilihan     : "))
+    print('')
     if (pilih == "1"):
         Aqua_Botol()
     elif (pilih == "2"):
@@ -94,14 +105,14 @@ def Membeli_lagi():
     if (pilih == "1"):
         Kembali_ke_awal()
     elif (pilih == "2"):
+        print("")
         print("Terimakasih Telah Membeli")
         print("===========================")
-        input("Tekan Enter untuk keluar")
         exit
         
 # KEMBALI KE AWAL
 def Kembali_ke_awal():
-    input("Tekan Enter untuk kembali...")
+    print("")
     print("")
     menampilkanjenis()
 
