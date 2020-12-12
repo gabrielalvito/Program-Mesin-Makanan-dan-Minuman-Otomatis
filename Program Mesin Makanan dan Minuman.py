@@ -14,7 +14,7 @@ def menampilkanjenis():
     pilih = str(input("Masukkan Pilihan : "))
   
     if(pilih == "1"):
-      makananringan()
+     makananringan()
     elif(pilih == "2"):
      minumandingin()
     elif(pilih =="0"):
