@@ -14,12 +14,12 @@ def menampilkanjenis():
     pilih = str(input("Masukkan Pilihan : "))
   
     if(pilih == "1"):
-     makananringan()
+        makananringan()
     elif(pilih == "2"):
-     minumandingin()
+        minumandingin()
     elif(pilih =="0"):
-     print("Terima Kasih")
-     print("==================================================")
+        print("Terima Kasih")
+        print("==================================================")
      exit
     else :
         print("Pilihan Salah")
