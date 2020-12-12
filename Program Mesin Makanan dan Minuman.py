@@ -20,7 +20,7 @@ def menampilkanjenis():
     elif(pilih =="0"):
         print("Terima Kasih")
         print("==================================================")
-     exit
+        exit
     else :
         print("Pilihan Salah")
         Kembali_ke_awal()
